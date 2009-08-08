@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background: #f5f5f5;
+}
+
+#container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #444;
+}
+
+/* Todo List Styles */
+#todo-form {
+    margin-bottom: 20px;
+}
+
+#new-todo {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 15px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+#todo-list {
+    list-style: none;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    background: #ff4444;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+}
+
+.delete-btn:hover {
+    background: #cc0000;
+}
+
+/* Effects Demo */
+#fade-element {
+    padding: 20px;
+    background: #e8f4f8;
+    margin: 10px 0;
+    border: 1px solid #b3d7e6;
+}
+
+/* AJAX Demo */
+#ajax-result {
+    padding: 15px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    min-height: 50px;
+} 
